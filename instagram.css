@@ -1,0 +1,69 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h2,p{
+color: white;
+font-weight: bold;
+padding: 0px 15px;
+}
+.profile img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.main{
+    height: 700px;
+    width: 400px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-rows: 120px ;
+    grid-template-columns: 120px 120px 120px;
+    border: 5px solid gray;
+    column-gap: 10px;
+    position: relative;
+}
+.details{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+
+
+}
+.profile img{
+ margin: 20px;
+}
+h3{
+    color: white;
+    font-weight: bold;
+}
+.info{
+    margin: 10px;
+    width: 400px;
+}
+.edit button{
+    width: 90%;
+    margin: 0px auto;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.links button :hover,.edit button:hover{
+    background-color: grey;
+}
+.button button{
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+.links button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 0px 8px ;
+}
